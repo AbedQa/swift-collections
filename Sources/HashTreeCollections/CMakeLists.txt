@@ -95,7 +95,7 @@ add_library(HashTreeCollections
   "TreeSet/TreeSet.swift"
   )
 target_link_libraries(HashTreeCollections PRIVATE
-  _CollectionsUtilities)
+  CollectionsUtilities)
 set_target_properties(HashTreeCollections PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES ${CMAKE_Swift_MODULE_DIRECTORY})
 

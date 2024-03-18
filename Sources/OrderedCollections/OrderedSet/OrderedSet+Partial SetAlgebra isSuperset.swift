@@ -10,7 +10,7 @@
 //===----------------------------------------------------------------------===//
 
 #if !COLLECTIONS_SINGLE_MODULE
-import _CollectionsUtilities
+import CollectionsUtilities
 #endif
 
 // `OrderedSet` does not directly conform to `SetAlgebra` because its definition

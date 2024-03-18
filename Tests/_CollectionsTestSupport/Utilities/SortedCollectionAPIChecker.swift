@@ -12,7 +12,7 @@
 #if COLLECTIONS_SINGLE_MODULE
 import Collections
 #else
-import _CollectionsUtilities
+import CollectionsUtilities
 #endif
 
 /// This protocol simply lists Collection/Sequence extensions that ought to be
