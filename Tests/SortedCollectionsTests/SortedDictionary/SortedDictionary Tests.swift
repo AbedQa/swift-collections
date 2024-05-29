@@ -10,7 +10,7 @@
 //===----------------------------------------------------------------------===//
 
 #if DEBUG
-import _CollectionsTestSupport
+import CollectionsTestSupport
 @_spi(Testing) @testable import SortedCollections
 
 #if false // Temporarily disabled until the failures can be investigated

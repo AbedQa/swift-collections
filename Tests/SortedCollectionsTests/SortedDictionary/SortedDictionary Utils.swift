@@ -9,7 +9,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import _CollectionsTestSupport
+import CollectionsTestSupport
 import SortedCollections
 
 extension LifetimeTracker {

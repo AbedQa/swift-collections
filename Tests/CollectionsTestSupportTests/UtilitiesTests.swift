@@ -12,7 +12,7 @@
 import XCTest
 
 #if !COLLECTIONS_SINGLE_MODULE && DEBUG
-@testable import _CollectionsTestSupport
+@testable import CollectionsTestSupport
 #endif
 
 #if COLLECTIONS_SINGLE_MODULE || DEBUG

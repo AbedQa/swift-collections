@@ -11,7 +11,7 @@
 
 import XCTest
 @_spi(Testing) import SortedCollections
-import _CollectionsTestSupport
+import CollectionsTestSupport
 
 class SortedSetTests: CollectionTestCase {
   func test_init_sortedElements() {

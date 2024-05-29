@@ -112,9 +112,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "_CollectionsTestSupport"
-               BuildableName = "_CollectionsTestSupport"
-               BlueprintName = "_CollectionsTestSupport"
+               BlueprintIdentifier = "CollectionsTestSupport"
+               BuildableName = "CollectionsTestSupport"
+               BlueprintName = "CollectionsTestSupport"
                ReferencedContainer = "container:..">
             </BuildableReference>
          </BuildActionEntry>

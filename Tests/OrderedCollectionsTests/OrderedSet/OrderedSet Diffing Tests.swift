@@ -14,7 +14,7 @@ import XCTest
 import Collections
 #else
 import OrderedCollections
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 class MeasuringHashable: Hashable {

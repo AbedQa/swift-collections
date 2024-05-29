@@ -16,7 +16,7 @@ import XCTest
 #if COLLECTIONS_SINGLE_MODULE
 @_spi(Testing) @testable import Collections
 #else
-import _CollectionsTestSupport
+import CollectionsTestSupport
 @_spi(Testing) @testable import OrderedCollections
 #endif
 

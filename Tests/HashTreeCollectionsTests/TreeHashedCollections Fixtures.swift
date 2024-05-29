@@ -12,7 +12,7 @@
 #if COLLECTIONS_SINGLE_MODULE
 import Collections
 #else
-import _CollectionsTestSupport
+import CollectionsTestSupport
 import HashTreeCollections
 #endif
 

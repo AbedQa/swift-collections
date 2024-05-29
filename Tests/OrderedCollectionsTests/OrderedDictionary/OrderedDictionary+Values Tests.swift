@@ -14,7 +14,7 @@ import XCTest
 import Collections
 #else
 @_spi(Testing) import OrderedCollections
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 class OrderedDictionaryValueTests: CollectionTestCase {

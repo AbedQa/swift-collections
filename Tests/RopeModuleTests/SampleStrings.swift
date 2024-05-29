@@ -10,7 +10,7 @@
 //===----------------------------------------------------------------------===//
 
 #if !COLLECTIONS_SINGLE_MODULE
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 func randomStride(

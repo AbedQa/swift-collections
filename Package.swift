@@ -177,12 +177,12 @@ extension Array where Element == CustomTarget {
 let targets: [CustomTarget] = [
   .target(
     kind: .testSupport,
-    name: "_CollectionsTestSupport",
+    name: "CollectionsTestSupport",
     dependencies: ["CollectionsUtilities"]),
   .target(
     kind: .test,
     name: "CollectionsTestSupportTests",
-    dependencies: ["_CollectionsTestSupport"]),
+    dependencies: ["CollectionsTestSupport"]),
   .target(
     kind: .hidden,
     name: "CollectionsUtilities",
@@ -215,7 +215,7 @@ let targets: [CustomTarget] = [
     kind: .test,
     name: "BitCollectionsTests",
     dependencies: [
-      "BitCollections", "_CollectionsTestSupport", "OrderedCollections"
+      "BitCollections", "CollectionsTestSupport", "OrderedCollections"
     ]),
 
   .target(
@@ -226,7 +226,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "DequeTests",
-    dependencies: ["DequeModule", "_CollectionsTestSupport"]),
+    dependencies: ["DequeModule", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,
@@ -236,7 +236,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "HashTreeCollectionsTests",
-    dependencies: ["HashTreeCollections", "_CollectionsTestSupport"]),
+    dependencies: ["HashTreeCollections", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,
@@ -246,7 +246,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "HeapTests",
-    dependencies: ["HeapModule", "_CollectionsTestSupport"]),
+    dependencies: ["HeapModule", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,
@@ -256,7 +256,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "OrderedCollectionsTests",
-    dependencies: ["OrderedCollections", "_CollectionsTestSupport"]),
+    dependencies: ["OrderedCollections", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,
@@ -267,7 +267,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "RopeModuleTests",
-    dependencies: ["_RopeModule", "_CollectionsTestSupport"]),
+    dependencies: ["_RopeModule", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,
@@ -277,7 +277,7 @@ let targets: [CustomTarget] = [
   .target(
     kind: .test,
     name: "SortedCollectionsTests",
-    dependencies: ["SortedCollections", "_CollectionsTestSupport"]),
+    dependencies: ["SortedCollections", "CollectionsTestSupport"]),
 
   .target(
     kind: .exported,

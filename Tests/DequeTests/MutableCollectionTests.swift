@@ -13,7 +13,7 @@ import XCTest
 #if COLLECTIONS_SINGLE_MODULE
 import Collections
 #else
-import _CollectionsTestSupport
+import CollectionsTestSupport
 @_spi(Testing) import DequeModule
 #endif
 

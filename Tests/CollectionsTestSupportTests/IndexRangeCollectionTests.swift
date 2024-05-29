@@ -11,7 +11,7 @@
 
 import XCTest
 #if !COLLECTIONS_SINGLE_MODULE
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 final class IndexRangeCollectionTests: CollectionTestCase {

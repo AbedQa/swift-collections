@@ -14,7 +14,7 @@ import XCTest
 @_spi(Testing) import Collections
 #else
 @_spi(Testing) import OrderedCollections
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 extension OrderedSet: SetAPIExtras {}

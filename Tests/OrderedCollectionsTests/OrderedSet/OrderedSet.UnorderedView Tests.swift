@@ -14,7 +14,7 @@ import XCTest
 import Collections
 #else
 @_spi(Testing) import OrderedCollections
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 // Note: This cannot really work unless `UnorderedView` becomes a Collection.

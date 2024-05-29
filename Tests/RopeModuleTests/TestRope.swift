@@ -14,7 +14,7 @@ import XCTest
 import Collections
 #else
 import _RopeModule
-import _CollectionsTestSupport
+import CollectionsTestSupport
 #endif
 
 struct Chunk: RopeElement, Equatable, CustomStringConvertible {
